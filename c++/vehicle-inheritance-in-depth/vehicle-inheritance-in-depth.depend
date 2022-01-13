@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1554409610 source:c:\users\avalladares7023\documents\aimee_valladares_hw5\car.cpp
+	"Car.h"
+	"Vehicle.h"
+	<iostream>
+	<string>
+
+1554407853 c:\users\avalladares7023\documents\aimee_valladares_hw5\car.h
+	"Vehicle.h"
+	<string>
+
+1554407848 c:\users\avalladares7023\documents\aimee_valladares_hw5\vehicle.h
+	<string>
+
+1554408409 source:c:\users\avalladares7023\documents\aimee_valladares_hw5\main.cpp
+	<iostream>
+	<string>
+	"Vehicle.h"
+	"Car.h"
+	"Truck.h"
+
+1554409499 c:\users\avalladares7023\documents\aimee_valladares_hw5\truck.h
+	"Vehicle.h"
+	<string>
+
+1554409610 source:c:\users\avalladares7023\documents\aimee_valladares_hw5\truck.cpp
+	"Truck.h"
+	"Vehicle.h"
+	<iostream>
+	<string>
+
+1554409610 source:c:\users\avalladares7023\documents\aimee_valladares_hw5\vehicle.cpp
+	"Vehicle.h"
+	<iostream>
+	<string>
+

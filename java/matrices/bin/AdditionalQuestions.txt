@@ -1,0 +1,19 @@
+1.Why are the add, multiply, and zero methods defined abstract in the GenericMatrix class?
+	
+The add, multiply, and zero methods are defined abstract in the GenericMatrix class
+because the formatting for the elements within a matrix regarding the IntegerMatrix class 
+is different from the formatting for the RationalMatrix class. Since the GenericMatrix 
+class is an abstract class, then the methods can be implemented in the subclasses that have 
+the matrix element type specificed.
+
+2.How are the add, multiply, and zero methods implemented in the IntegerMatrix class?
+	
+The add method is implemented by simply adding the two elements together. The 
+multiply method is implemented by simply multiplying the two elements. Finally, the zero 
+method is implemented by just returning 0.
+
+3.How are the add, multiply, and zero methods implemented in the RationalMatrix class?
+	
+The add and multiply methods are implemented by calling the add and multiply 
+methods in the Rational class, in which the calculations are done. Finally, the zero 
+method is implemented by returning a new Rational().
